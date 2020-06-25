@@ -51,7 +51,7 @@ on	d.zip=Players.playerzip
 
 players<- read.csv('players.csv')
 
-regressor = lm(formula = activeplayersperzip ~ .,data = players)
+#regressor = lm(formula = activeplayersperzip ~ .,data = players)
 
 # This builds the app
 
